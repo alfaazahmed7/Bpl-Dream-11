@@ -1,5 +1,5 @@
 import React from 'react';
-import CurrencyIcon from "../../assets/Currency.png";
+import CurrencyIcon from "../../../assets/Currency.png";
 
 const Navbar = () => {
     return (

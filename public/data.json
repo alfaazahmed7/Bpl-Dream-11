@@ -1,0 +1,74 @@
+[
+    {
+        "playerName": "Virat Kohli",
+        "playerCountry": "India",
+        "playerType": "Batsman",
+        "rating": 95,
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm medium",
+        "img": "https://example.com/images/virat-kohli.jpg"
+    },
+    {
+        "playerName": "Babar Azam",
+        "playerCountry": "Pakistan",
+        "playerType": "Batsman",
+        "rating": 93,
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm offbreak",
+        "img": "https://example.com/images/babar-azam.jpg"
+    },
+    {
+        "playerName": "Joe Root",
+        "playerCountry": "England",
+        "playerType": "Batsman",
+        "rating": 91,
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm offbreak",
+        "img": "https://example.com/images/joe-root.jpg"
+    },
+    {
+        "playerName": "Kane Williamson",
+        "playerCountry": "New Zealand",
+        "playerType": "Batsman",
+        "rating": 92,
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm offbreak",
+        "img": "https://example.com/images/kane-williamson.jpg"
+    },
+    {
+        "playerName": "Ben Stokes",
+        "playerCountry": "England",
+        "playerType": "All-rounder",
+        "rating": 90,
+        "battingStyle": "Left-hand bat",
+        "bowlingStyle": "Right-arm fast-medium",
+        "img": "https://example.com/images/ben-stokes.jpg"
+    },
+    {
+        "playerName": "Shakib Al Hasan",
+        "playerCountry": "Bangladesh",
+        "playerType": "All-rounder",
+        "rating": 94,
+        "battingStyle": "Left-hand bat",
+        "bowlingStyle": "Slow left-arm orthodox",
+        "img": "https://example.com/images/shakib-al-hasan.jpg"
+    },
+    {
+        "playerName": "Jasprit Bumrah",
+        "playerCountry": "India",
+        "playerType": "Bowler",
+        "rating": 92,
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm fast",
+        "img": "https://example.com/images/jasprit-bumrah.jpg"
+    },
+    {
+        "playerName": "Mitchell Starc",
+        "playerCountry": "Australia",
+        "playerType": "Bowler",
+        "rating": 91,
+        "battingStyle": "Left-hand bat",
+        "bowlingStyle": "Left-arm fast",
+        "img": "https://example.com/images/mitchell-starc.jpg"
+    }
+]
