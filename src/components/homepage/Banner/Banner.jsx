@@ -4,7 +4,7 @@ import BannerTopImage from "../../../assets/banner-main.png";
 
 const Banner = () => {
     return (
-        <div className='w-11/12 mx-auto mb-15'>
+        <div className='w-10/12 mx-auto mb-15'>
             <div
                 className="hero min-h-[50vh] rounded-4xl overflow-hidden"
                 style={{ backgroundImage: `url(${BannerImage})`, }}
