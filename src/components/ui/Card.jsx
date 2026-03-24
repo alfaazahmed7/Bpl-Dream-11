@@ -5,10 +5,10 @@ import { FaFlag } from 'react-icons/fa';
 const Card = ({ player }) => {
     return (
         <div>
-            <div>
-                <div className="card bg-base-100 max-w-sm shadow-sm">
+            <div className='w-[400px]'>
+                <div className="card bg-base-100  shadow-sm">
                     <figure>
-                        <img className='w-[90%] rounded-lg mt-3'
+                        <img className='rounded-lg mt-3 h-56 w-[90%]'
                             src={player.img}
                             alt="Shoes" />
                     </figure>
