@@ -1,8 +1,9 @@
 import React, { use, useState } from 'react';
-import AvailablePlayer from '../AvailablePlayer/AvailablePlayer';
+import AvailablePlayer from './AvailablePlayer/AvailablePlayer';
+import SelectedPlayers from './SelectedPlayers/SelectedPlayers';
 
 
-const Player = ({ playersPromise }) => {
+const Player = ({ playersPromise, setCoin, coin }) => {
     const players = use(playersPromise);
     const [selectedType, setSelectedType] = useState("available");
 
@@ -26,7 +27,7 @@ const Player = ({ playersPromise }) => {
                 </div>
             </div>
             <div className='w-10/12 mx-auto'>
-                <AvailablePlayer players={players} />
+                {selectedType === "available" ? <AvailablePlayer players={players} setCoin = {setCoin} coin = {coin} /> : <SelectedPlayers />}
             </div>
         </>
     );
