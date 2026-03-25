@@ -10,6 +10,16 @@
         "img": "https://i.ibb.co.com/WNgqdkhL/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.webp"
     },
     {
+        "playerName": "AB de Villiers",
+        "playerCountry": "South Africa",
+        "playerType": "Batsman",
+        "rating": 94,
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm medium",
+        "price": 149000,
+        "img": "https://i.ibb.co.com/v9VHrx9/ab-de-villiers.webp"
+    },
+    {
         "playerName": "Babar Azam",
         "playerCountry": "Pakistan",
         "playerType": "Batsman",
@@ -108,15 +118,5 @@
         "bowlingStyle": "Left-arm fast-medium",
         "price": 128000,
         "img": "https://i.ibb.co.com/Z1fv9zDJ/trent-boult.webp"
-    },
-    {
-        "playerName": "AB de Villiers",
-        "playerCountry": "South Africa",
-        "playerType": "Batsman",
-        "rating": 94,
-        "battingStyle": "Right-hand bat",
-        "bowlingStyle": "Right-arm medium",
-        "price": 149000,
-        "img": "https://i.ibb.co.com/v9VHrx9/ab-de-villiers.webp"
     }
 ]
