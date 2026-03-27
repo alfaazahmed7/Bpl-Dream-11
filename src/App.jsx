@@ -19,11 +19,15 @@ function App() {
   return (
     <>
       <Navbar coin={coin} />
-      <Banner />
+      <Banner coin={coin} setCoin={setCoin} />
 
       <Suspense
-        fallback={(<span className="loading loading-spinner loading-xl"></span>
-        )}>
+        fallback={
+          <div className="flex justify-center items-center">
+            <span className="loading loading-spinner loading-xl"></span>
+          </div>
+        }
+      >
         <Player playersPromise={playersPromise} setCoin={setCoin} coin={coin} />
       </Suspense>
 

@@ -2,7 +2,12 @@ import React from 'react';
 import BannerImage from "../../../assets/baner-bg.jpg";
 import BannerTopImage from "../../../assets/banner-main.png";
 
-const Banner = () => {
+const Banner = ({ coin, setCoin }) => {
+    const increaseCoinHandler = () => {
+        let newCoin = coin + 100000;
+        setCoin(newCoin);
+    }
+
     return (
         <div className='w-10/12 mx-auto mb-15'>
             <div
@@ -18,7 +23,9 @@ const Banner = () => {
                             Beyond Boundaries Beyond Limits
                         </p>
                         <div className='max-w-48 border-2 border-[#E7FE29] rounded-2xl p-2'>
-                            <button className='text-base font-bold p-3 bg-[#E7FE29] text-black rounded-xl cursor-pointer'>Claim Free Credit</button>
+                            <button
+                            onClick={increaseCoinHandler}
+                            className='text-base font-bold p-3 bg-[#E7FE29] text-black rounded-xl cursor-pointer hover:bg-[#fefee3]'>Claim Free Credit</button>
                         </div>
                     </div>
                 </div>
