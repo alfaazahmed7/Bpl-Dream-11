@@ -27,10 +27,8 @@ function App() {
         <Player playersPromise={playersPromise} setCoin={setCoin} coin={coin} />
       </Suspense>
 
-      <div className='relative'>
-        <Subscribe />
-        <Footer />
-      </div>
+      <Subscribe />
+      <Footer />
 
       <ToastContainer />
     </>

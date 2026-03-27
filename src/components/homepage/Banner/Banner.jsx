@@ -12,9 +12,9 @@ const Banner = () => {
                 <div className="hero-overlay"></div>
                 <div className="hero-content text-neutral-content text-center">
                     <div className="max-w-full flex flex-col items-center">
-                        <img className='mx-auto mb-3' src={BannerTopImage} alt="" />
+                        <img className='mx-auto mb-3 w-[150px] md:w-[200px] ' src={BannerTopImage} alt="" />
                         <h1 className="mb-5 text-3xl lg:text-[40px] font-bold">Assemble Your Ultimate Dream 11 Cricket Team</h1>
-                        <p className="mb-5 opacity-70 text-2xl">
+                        <p className="mb-5 opacity-70 md:text-2xl">
                             Beyond Boundaries Beyond Limits
                         </p>
                         <div className='max-w-48 border-2 border-[#E7FE29] rounded-2xl p-2'>
