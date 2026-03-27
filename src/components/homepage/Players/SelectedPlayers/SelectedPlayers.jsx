@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdDelete } from 'react-icons/md';
+import SelectedCard from '../../../ui/SelectedCard';
 
 const SelectedPlayers = ({ selectedPlayers, setSelelctedPlayers, coin, setCoin }) => {
 
@@ -11,30 +11,20 @@ const SelectedPlayers = ({ selectedPlayers, setSelelctedPlayers, coin, setCoin }
 
     return (
         <div>
-            {selectedPlayers.map((player) => {
-                return (
-                    <div className='mb-5'>
-                        <div className='flex justify-between border-2 border-[#13131310] rounded-xl p-2'>
-                            <div className='flex items-center gap-4'>
-                                <div>
-                                    <img className='w-[80px] rounded-lg' src={player.img} alt={player.playerName} />
-                                </div>
-                                <div>
-                                    <h4 className='text-[#131313] text-2xl font-bold'>{player.playerName}</h4>
-                                    <span className='text-[#131313] opacity-60 text-base'>{player.battingStyle}</span>
-                                </div>
-                            </div>
-                            <div className='flex items-center'>
-                                <button
-                                    onClick={() => handleDeleteSelectedPlayer(player)}
-                                    className='btn text-red-500'>
-                                    <MdDelete />
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                )
-            })}
+            {selectedPlayers.length === 0
+                ? <div className='border-2 border-[#00000050] p-10 text-center rounded-xl'>
+                    <h2 className='font-bold text-3xl mb-3'>No players selected yet</h2>
+                    <p className='text-[#00000070] font-medium'>Go to available tab to select players</p>
+                </div>
+                : selectedPlayers.map((player, index) => {
+                    return (
+                        <SelectedCard
+                            key={index}
+                            player={player}
+                            handleDeleteSelectedPlayer={handleDeleteSelectedPlayer}
+                        />
+                    )
+                })}
         </div>
     );
 };
